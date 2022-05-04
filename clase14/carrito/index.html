@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo carrito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="./main.css" rel="stylesheet" />
+</head>
+<body>
+  
+  <!--  cart modal  -->
+  <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">El carrito esta vacio</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">COMPRAR</button>
+        </div>
+      </div>
+    </div>
+<!--   end of cart modal -->
+  <a class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </a>
+<!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card" id="item1">
+      <img class="product-image" src="https://via.placeholder.com/300x400" alt="">
+        <h3>Producto 1</h3>
+        <button class="add-to-cart">Comprar</button>
+        <span class="product-price">$1395</span>
+    </div>
+    <div class="card-2 card" id="item2">
+        <img class="product-image" src="https://via.placeholder.com/300x400" alt="">
+        <h3>Producto 2</h3>
+        <button class="add-to-cart">Comprar</button>
+        <span class="product-price">$1175</span>
+    </div>
+    <div class="card-3 card" id="item3">
+        <img class="product-image" src="https://via.placeholder.com/300x400" alt="">
+        <h3>Producto 3</h3>
+        <button class="add-to-cart">Comprar</button>
+          <span class="product-price">$1150</span>
+    </div>
+    <div class="card-4 card" id="item4">
+        <img class="product-image" src="https://via.placeholder.com/300x400" alt="">
+        <h3>Producto 4</h3>
+        <button class="add-to-cart">Comprar</button>
+        <span class="product-price">$1575</span>
+    </div>
+    <div class="card-5 card" id="item5">
+        <img class="product-image" src="https://via.placeholder.com/300x400" alt="">
+        <h3>Producto 5</h3>
+        <button class="add-to-cart">Comprar</button>
+      <span class="product-price">$1230</span>
+    </div>
+  </div>
+<!--  end of products  -->
+  
+<script src="./main.js"></script>
+  
+</body>
+</html>
