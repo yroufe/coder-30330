@@ -1,0 +1,5 @@
+[
+    {"nombre": "Juan", "edad": 21, "profesion":"carpintero"},
+    {"nombre": "Maria", "edad": 26, "profesion":"doctora"},
+    {"nombre": "Jimena", "edad": 28, "profesion":"bombera"}
+]
